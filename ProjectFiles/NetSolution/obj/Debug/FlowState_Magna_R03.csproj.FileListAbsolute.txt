@@ -1,0 +1,12 @@
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\bin\FlowState_Magna_R03.deps.json
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\bin\FlowState_Magna_R03.dll
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\bin\FlowState_Magna_R03.pdb
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.csproj.AssemblyReference.cache
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.AssemblyInfoInputs.cache
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.AssemblyInfo.cs
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.csproj.CoreCompileInputs.cache
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.dll
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\refint\FlowState_Magna_R03.dll
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\FlowState_Magna_R03.pdb
+C:\Users\Manny\Desktop\FlowState_Magna_R03\ProjectFiles\NetSolution\obj\Debug\ref\FlowState_Magna_R03.dll

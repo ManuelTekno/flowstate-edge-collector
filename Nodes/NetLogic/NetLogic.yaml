@@ -1,0 +1,123 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: FromPlcToModel
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: StartingNodeToFetch
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/FlowState_Magna_R03/CommDrivers/EthernetIP/Magna_PLC/Tags/Controller Tags/MagnaDataLogNew_v2"
+  - Class: Method
+    Name: GenerateNodesIntoModel
+  - Name: TargetFolder
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/FlowState_Magna_R03/Model/PLC_Tags"
+  - Name: DeleteExistingTags
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ns=15;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 15
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "ca08c3f9989e6a81fe78d8172b436a51",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: DataLogProducer
+  Type: NetLogic
+  Children:
+  - Name: Customer_ID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tekno"
+  - Name: Server_ID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TS1"
+  - Name: Tekno_Device_ID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "GW-TEKNO-01"
+  - Name: Plant_ID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TP1"
+  - Name: Department_ID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TD1"
+  - Name: Line_ID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TL1"
+  - Name: Tekno_Payload_Version
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "tekno.v3"
+  - Name: Tekno_Emitter_Version
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "optix.v3"
+  - Name: Data_Store_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DataStores/Store_Local_Database_20260420"
+  - Name: PLC_Tag_Names
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [140]
+    Value: ["_11100","_11105","_11110","_11115","_11120","_11125","_11130","_11135","_11140","_11145","_11150","_11155","_11160","_11165","_11170","_11175","_11180","_11185","_11190","_11195","_11200","_11205","_11210","_11215","_11305","_11310","_11315","_11320","_11325","_11330","_11335","_11340","_11345","_11350","_11360","_11365","_11370","_11380","_11385","_11390","_11395","_11405","_11410","_11415","_11420","_11425","_11430","_11435","_11445","_11450","_11455","_11460","_11465","_11470","_11475","_11480","_11485","_11505","_11510","_11515","_11520","_11525","_11530","_11535","_11540","_11545","_11550","_11555","_11560","_11565","_11570","_11575","_11580","_11585","_11590","_11605","_11610","_11620","_11625","_11635","_11640","_11645","_11705","_11710","_11715","_11720","_11725","_11730","_11735","_11740","_11745","_11750","_11755","_11760","_11765","_11770","_11775","_11805","_11810","_11815","_11820","_11825","_11830","_11835","_11840","_11845","_11850","_11855","_11860","_11865","_11870","_11875","_11880","_11885","_11890","_11895","_11900","_11905","_STP910","_T37","_RTN10","_RTN20","_RTN30","_RTN40","_RTN50","_RTN60","_RTN70","_RTN80","_RTN90","_RTN100","_RTN110","_RTN120","_RTN130","_RTN140","_RTN150","_RTN160","_RTN170","_RTN180","",""]
+  - Name: PLC_Base_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Model/PLC_Tags/MagnaDataLogNew_v2"
+- Name: DataLogDispatcher
+  Type: NetLogic
+  Children:
+  - Name: Store_Data_Store_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DataStores/Store_Local_Database_20260420"
+  - Name: Forward_Data_Store_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DataStores/Forward_Cloud_Database"
+  - Name: Dispatcher_Batch_Size
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Forward_Polling_Time_MS
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3000
+- Name: DataLogCleanup
+  Type: NetLogic
+  Children:
+  - Name: Store_Data_Store_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DataStores/Store_Local_Database_20260420"
+  - Name: Cleanup_Polling_Time_MS
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3000
+  - Name: Cleanup_Batch
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100

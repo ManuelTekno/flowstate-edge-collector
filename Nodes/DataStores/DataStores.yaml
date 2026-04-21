@@ -1,0 +1,509 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: Forward_Cloud_Database
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: production_events
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: source_event_key
+          Type: StoreColumn
+          DataType: String
+        - Name: utc_time_stamp
+          Type: StoreColumn
+          DataType: DateTime
+          ValueRank: OneDimension
+          ArrayDimensions: [3]
+        - Name: source_inserted_at_utc
+          Type: StoreColumn
+          DataType: DateTime
+          ValueRank: OneDimension
+          ArrayDimensions: [3]
+        - Name: event_type
+          Type: StoreColumn
+          DataType: String
+        - Name: event_id
+          Type: StoreColumn
+          DataType: Int64
+        - Name: pallet_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: pallet_destination
+          Type: StoreColumn
+          DataType: String
+        - Name: customer_id
+          Type: StoreColumn
+          DataType: String
+        - Name: server_id
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_device_id
+          Type: StoreColumn
+          DataType: String
+        - Name: plant_id
+          Type: StoreColumn
+          DataType: String
+        - Name: department_id
+          Type: StoreColumn
+          DataType: String
+        - Name: line_id
+          Type: StoreColumn
+          DataType: String
+        - Name: stop_id
+          Type: StoreColumn
+          DataType: String
+        - Name: build_result
+          Type: StoreColumn
+          DataType: String
+        - Name: defect_station_id
+          Type: StoreColumn
+          DataType: String
+        - Name: defect_reason
+          Type: StoreColumn
+          DataType: String
+        - Name: operator_id
+          Type: StoreColumn
+          DataType: String
+        - Name: part_model
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_payload_version
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_emitter_version
+          Type: StoreColumn
+          DataType: String
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 3
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "tekno"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    SecretValue: 1QK8vXxbuXWfN0oq7AKEiaD67PXnfnzNqTIAIDHefoJL4wzlXdIbKyFfNhOxmX/CRFUqfgA3RjyEg6o=
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: SFBufferOverflow
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SFBufferOverwrite
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+    Value: "35.239.229.61"
+  - Name: Port
+    Type: PropertyType
+    DataType: UInt16
+    Value: 3306
+  - Name: Database
+    Type: PropertyType
+    DataType: String
+    Value: "flowstate_magna_events"
+- Name: Store_Local_Database_20260417
+  Id: g=82c65b816bdf20e2e2371b8dc525a7c5
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: production_events
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: source_event_key
+          Type: StoreColumn
+          DataType: String
+        - Name: utc_time_stamp
+          Type: StoreColumn
+          DataType: DateTime
+          ValueRank: OneDimension
+          ArrayDimensions: [3]
+        - Name: source_inserted_at_utc
+          Type: StoreColumn
+          DataType: DateTime
+          ValueRank: OneDimension
+          ArrayDimensions: [3]
+        - Name: event_type
+          Type: StoreColumn
+          DataType: String
+        - Name: event_id
+          Type: StoreColumn
+          DataType: Int64
+        - Name: pallet_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: pallet_destination
+          Type: StoreColumn
+          DataType: String
+        - Name: customer_id
+          Type: StoreColumn
+          DataType: String
+        - Name: server_id
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_device_id
+          Type: StoreColumn
+          DataType: String
+        - Name: plant_id
+          Type: StoreColumn
+          DataType: String
+        - Name: department_id
+          Type: StoreColumn
+          DataType: String
+        - Name: line_id
+          Type: StoreColumn
+          DataType: String
+        - Name: stop_id
+          Type: StoreColumn
+          DataType: String
+        - Name: build_result
+          Type: StoreColumn
+          DataType: String
+        - Name: defect_station_id
+          Type: StoreColumn
+          DataType: String
+        - Name: defect_reason
+          Type: StoreColumn
+          DataType: String
+        - Name: operator_id
+          Type: StoreColumn
+          DataType: String
+        - Name: part_model
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_payload_version
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_emitter_version
+          Type: StoreColumn
+          DataType: String
+        - Name: sent_status
+          Type: StoreColumn
+          DataType: Int32
+        - Name: retry_count
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=21;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+- Name: Store_Local_Database_20260420
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: production_events
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: source_event_key
+          Type: StoreColumn
+          DataType: String
+        - Name: utc_time_stamp
+          Type: StoreColumn
+          DataType: DateTime
+          ValueRank: OneDimension
+          ArrayDimensions: [3]
+        - Name: source_inserted_at_utc
+          Type: StoreColumn
+          DataType: DateTime
+          ValueRank: OneDimension
+          ArrayDimensions: [3]
+        - Name: event_type
+          Type: StoreColumn
+          DataType: String
+        - Name: event_id
+          Type: StoreColumn
+          DataType: Int64
+        - Name: pallet_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: pallet_destination
+          Type: StoreColumn
+          DataType: String
+        - Name: customer_id
+          Type: StoreColumn
+          DataType: String
+        - Name: server_id
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_device_id
+          Type: StoreColumn
+          DataType: String
+        - Name: plant_id
+          Type: StoreColumn
+          DataType: String
+        - Name: department_id
+          Type: StoreColumn
+          DataType: String
+        - Name: line_id
+          Type: StoreColumn
+          DataType: String
+        - Name: stop_id
+          Type: StoreColumn
+          DataType: String
+        - Name: build_result
+          Type: StoreColumn
+          DataType: String
+        - Name: defect_station_id
+          Type: StoreColumn
+          DataType: String
+        - Name: defect_reason
+          Type: StoreColumn
+          DataType: String
+        - Name: operator_id
+          Type: StoreColumn
+          DataType: String
+        - Name: part_model
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_payload_version
+          Type: StoreColumn
+          DataType: String
+        - Name: tekno_emitter_version
+          Type: StoreColumn
+          DataType: String
+        - Name: sent_status
+          Type: StoreColumn
+          DataType: Int32
+        - Name: retry_count
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=21;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=67
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward

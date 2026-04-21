@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FlowState_Magna_R03/1.0.0": {
+        "runtime": {
+          "FlowState_Magna_R03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlowState_Magna_R03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

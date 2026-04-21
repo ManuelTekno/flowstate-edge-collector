@@ -1,0 +1,1134 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: ac_DataLog_v2
+  Id: g=698e8d8232115f78e7a73b201f88a453
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ac_DataLog_v2",
+    "DataType": {
+     "IdType": 2,
+     "Id": "698e8d8232115f78e7a73b201f88a453",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "_11100",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11105",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11110",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11115",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11120",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11125",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11130",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11135",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11140",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11145",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11150",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11155",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11165",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11160",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11170",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11175",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11180",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11185",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11190",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11195",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11200",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11205",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11210",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11215",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11305",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11310",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11315",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11320",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11325",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11330",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11335",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11340",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11345",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11350",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11360",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11365",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11370",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11380",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11385",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11390",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11395",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11405",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11410",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11415",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11420",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11425",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11430",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11435",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11445",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11450",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11455",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11460",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11465",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11470",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11475",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11480",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11485",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11505",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11510",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11515",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11520",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11525",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11530",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11535",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11540",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11545",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11550",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11555",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11560",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11565",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11570",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11575",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11580",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11585",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11590",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11605",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11610",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11620",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11625",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11635",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11640",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11645",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11705",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11710",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11715",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11720",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11725",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11730",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11735",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11740",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11745",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11750",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11755",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11760",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11765",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11770",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11775",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11805",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11810",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11815",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11820",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11825",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11830",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11835",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11840",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11845",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11850",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11855",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11860",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11865",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11870",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11875",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11880",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11885",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11890",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11895",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11900",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_11905",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_STP910",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_T37",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN10",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN20",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN30",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN40",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN50",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN60",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN70",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN80",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN90",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN100",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN110",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN120",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN140",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN130",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN150",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN160",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN170",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     },{
+      "Name": "_RTN180",
+      "DataType": {
+       "IdType": 2,
+       "Id": "60129e9affa51972f32302de79f43bf4",
+       "Namespace": 24
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ac_DataLog_v2"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: z_StationData_v2
+  Id: g=60129e9affa51972f32302de79f43bf4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "z_StationData_v2",
+    "DataType": {
+     "IdType": 2,
+     "Id": "60129e9affa51972f32302de79f43bf4",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "LocalTimeStamp",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "PalletID",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PalletDestination",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "StopID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "BuildResult",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "DefectStationID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "DefectReason",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OperatorID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "PartModel",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Triggers",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f9e9c10f9c480a426876a5ce6cb202d5",
+       "Namespace": 24
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"z_StationData_v2"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: z_LogTriggers_v2
+  Id: g=f9e9c10f9c480a426876a5ce6cb202d5
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "z_LogTriggers_v2",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f9e9c10f9c480a426876a5ce6cb202d5",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Ready_to_Receive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pallet_Arrived",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PalletID_Read",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready_to_Send",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Released",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pallet_Departed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Line_Down",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Line_Up",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Station_Down",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Station_Up",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"z_LogTriggers_v2"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

@@ -1,0 +1,4 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: PLC_Tags/PLC_Tags.yaml

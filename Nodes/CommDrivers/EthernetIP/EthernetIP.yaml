@@ -1,0 +1,4 @@
+Name: EthernetIP
+Type: RAEtherNetIPDriver
+Children:
+- File: Magna_PLC/Magna_PLC.yaml
